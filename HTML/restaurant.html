@@ -1,0 +1,96 @@
+    <div className='bg-gray-100 min-h-screen'>
+        <div className="min-w-screen-2xl m-auto bg-white">
+            {/* nav */}
+            <nav className="bg-white flex justify-between p-2">
+            <a href="" className="font-bold text-gray-500 text-xl md:text-2xl">OpenTable</a>
+            <div className="flex gap-4">
+                <button className="bg-blue-500 text-white rounded px-4 py-1 md:py-2 hover:bg-blue-400">SignIn</button>
+                <button className="text-black border-2 border-black px-2 py-2 mr-2 rounded hover:text-white hover:bg-black md:py-1">SignOut</button>
+            </div>
+            </nav>
+            {/* nav */}
+        </div>
+        {/* header */}
+        <div className="h-64 bg-gradient-to-r from-[#0f1f47] to-[#5f6984] p-5">
+            <div className="flex justify-center mt-10">
+            <h1 className="text-white font-bold text-2xl md:text-4xl">Chicken Kebab (Toronto)</h1>
+            </div>
+        </div>
+        <div className="flex justify-center mr-16 gap-10">
+            <div className="-mt-7 w-[40%] bg-white shadow-2xl">
+            <nav className="flex p-2 cursor-pointer border-b border-1 border-gray-300">
+                <div className="text-black mr-4 text-xs">Overview</div>
+                <div className="text-black text-xs">Menus</div>
+            </nav>
+            {/* heading */}
+            <div className="p-2">
+                <div className="border-b border-1 border-gray-100 pb-10">
+                <h1 className="text-gray-900 text-4xl font-semibold">Chicken Kebab + Bar - Pinecrest</h1>
+                </div>
+                {/* heading */}
+                <div className="flex items-center mt-2">
+                <span className="text-black mr-2">*****</span>
+                <span className="text-gray-900 mr-2 text-xs font-semibold">4.5</span>
+                <span className="text-gray-900 text-xs font-semibold">778 Reviews</span>
+                </div>
+                <div>
+                <p className="text-gray-500 text-reg mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate pariatur corporis iste cupiditate, repudiandae dolorem nemo delectus esse sed ea culpa provident consectetur nisi earum accusamus enim saepe possimus expedita.</p>
+                </div>
+                <div className="mt-10 border-b border-1 border-gray-300">
+                <h1 className="text-black text-lg font-bold pb-3">4 photos</h1>
+                </div>
+                <div className="grid grid-cols-3 gap-2 pt-3 border-b border-1 border-gray-300 pb-5">
+                <img src="https://img.freepik.com/free-photo/dinner-table-with-fried-meat-dishes-sauces_181624-43898.jpg?size=626&ext=jpg&ga=GA1.2.432512636.1664904528&semt=ais" alt="" className="hover:scale-105" />
+                <img src="https://img.freepik.com/free-photo/chicken-skewers-with-slices-apples-chili-top-view_2829-19996.jpg?size=626&ext=jpg&ga=GA1.2.432512636.1664904528&semt=ais" alt="" className="hover:scale-105" />
+                <img src="https://img.freepik.com/premium-photo/different-dishes-indian-cuisine-are-served-table-isolated-image_109656-604.jpg?size=626&ext=jpg&ga=GA1.2.432512636.1664904528&semt=ais" alt="" className="hover:scale-105" />
+                <img src="https://img.freepik.com/free-photo/grilled-meat-skewers-chicken-shish-kebab-with-zucchini-tomatoes-red-onions_2829-10942.jpg?size=626&ext=jpg&ga=GA1.2.432512636.1664904528&semt=ais" alt="" className="hover:scale-105" />
+                </div>
+                {/* Review */}
+                <div className="mt-5 pb-10">
+                <h1 className="text-black text-2xl">What People Tell About Us?</h1>
+                <div className="flex items-center mt-10">
+                    <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center">
+                    <h1 className="p-2 font-semibold text-white">MY</h1>
+                    </div>
+                    <div className="ml-5">
+                    <h1 className="text-black text-medium font-semibold">Mohammed Yaseen</h1>
+                    <p className="text-black mt-2">*****</p>
+                    <p className="text-gray-500 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac bibendum dolor.</p>
+                    </div>
+                </div>
+                </div>
+                {/* Review */}
+            </div>
+            </div>
+            {/* Reservation card */}
+            <div className="-mt-7 w-[20%] bg-white h-[40%] shadow-2xl">
+            <h1 className="text-black text-center pb-2 font-bold border-b border-1 border-gray-300">Make Reservation</h1>
+            <div className="p-4 flex flex-col border-b border-1 border-gray-300 ">
+                <label htmlFor="" className="text-black text-sm font-semibold">Party Size</label>
+                <select name="Persons" id="" className="text-black border-2 border-gray-300 rounded-full p-2 mt-2">
+                <option value="1 Persons">1 Persons</option>
+                <option value="2 Persons">2 Persons</option>
+                </select>
+            </div>
+            <div className="flex gap-3 border-b border-1 border-gray-300 p-2">
+                <div className="flex flex-col left">
+                <label htmlFor="" className="text-black text-sm font-semibold">Date</label>
+                <input type="date"  className="border-2 border-gray-300 rounded-full p-1  text-black mt-2" />
+                </div>
+                <div className="right flex flex-col">
+                <label htmlFor="" className="text-black text-sm font-semibold">Time</label>
+                <select name="Time" id="" className="text-black border-2 border-gray-300 rounded-full p-2  mt-2">
+                <option value="2.30 ">2.30pm </option>
+                <option value="7.30 ">7.30pm </option>
+                <option value="9.30 ">9.30pm </option>
+                </select>
+                </div>
+            </div>
+            <div className="text-center mt-5 p-5">
+                <button className="bg-red-500 text-white px-4 py-2 rounded-full font-bold">Find a Time</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        
